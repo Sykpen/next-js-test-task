@@ -1,0 +1,15 @@
+.headerMain {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.loginText {
+  margin-right: 10px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "sergey-potapov-test-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "fakeServer": "json-server -w db.json -p 4200 -d 150",
+    "appStart": "concurrently \"npm run dev\" \"npm run fakeServer\""
+  },
+  "dependencies": {
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.0",
+    "bootstrap": "^4.5.3",
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3",
+    "next": "10.0.2",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "redux-wrapper": "0.0.1",
+    "typescript": "^4.1.2"
+  }
+}
